@@ -1,8 +1,7 @@
-<!DOCTYPE html>
 <html>
 <head>
 <meta charset="UTF-8">
-<title>My BB 💖</title>
+<title>to my ebeb 💖</title>
 <style>
 /* 🌸 Soft Pink Gradient Background */
 body {
@@ -108,7 +107,7 @@ img {
 
 <div class="container">
     <h1 id="question">Will You Be My Galentine BB? 💖</h1>
-    <p>In every universe, I will forever be grateful that I have you in my life</p>
+    <p>I hope you're my bestfriend in every universe</p>
 
     <!-- Use your uploaded GitHub raw URLs here -->
     <img src="https://raw.githubusercontent.com/ecka29/my-bb/ca4d37f50ae7b247e98b78b8aa87c30a16db9c2e/bestie1.jpg">
