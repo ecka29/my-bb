@@ -115,8 +115,9 @@ img {
     <h1 id="question">Will You Be My Galentine BB? 💖</h1>
 
     <!-- Cute Bestie Images -->
-    <img src="/Users/ecka/Downloads/FullSizeRender%20(1).JPG>
-    <img src="hfile:///Users/ecka/Downloads/IMG_6564%20(1).jpg>
+   <img src="https://raw.githubusercontent.com/ecka29/my-bb/main/FullSizeRender%20(1).JPG" alt="Best Friends">
+<img src="https://raw.githubusercontent.com/ecka29/my-bb/main/IMG_6564%20(1).jpg" alt="Best Friends">
+
 
     <br>
 
