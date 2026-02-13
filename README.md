@@ -117,7 +117,7 @@ img {
     <p>Chaos together. Laugh forever. 👯‍♀️✨</p>
 
     <!-- Cute Bestie Images -->
-    <img src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e" alt="Best Friends">
+    <img src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e" alt="Best Friends>
     <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9" alt="Girls Laughing">
 
     <br>
