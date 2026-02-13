@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 <head>
 <meta charset="UTF-8">
@@ -113,11 +114,11 @@ img {
 
 <div class="container">
     <h1 id="question">Will You Be My Galentine BB? 💖</h1>
+    <p>Chaos together. Laugh forever. 👯‍♀️✨</p>
 
-    <!-- Cute Bestie Images -->
-   <img src="https://raw.githubusercontent.com/ecka29/my-bb/main/FullSizeRender%20(1).JPG" alt="Best Friends">
-<img src="https://raw.githubusercontent.com/ecka29/my-bb/main/IMG_6564%20(1).jpg" alt="Best Friends">
-
+    <!-- Replace these URLs with your uploaded images raw GitHub URLs -->
+    <img src="https://raw.githubusercontent.com/ecka29/my-bb/main/bestie1.jpg" alt="Best Friends">
+    <img src="https://raw.githubusercontent.com/ecka29/my-bb/main/bestie2.jpg" alt="Best Friends">
 
     <br>
 
