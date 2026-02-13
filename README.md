@@ -113,7 +113,6 @@ img {
 
 <div class="container">
     <h1 id="question">Will You Be My Galentine BB? 💖</h1>
-    <p>Chaos together. Laugh forever. 👯‍♀️✨</p>
 
     <!-- Cute Bestie Images -->
     <img src="/Users/ecka/Downloads/FullSizeRender%20(1).JPG>
