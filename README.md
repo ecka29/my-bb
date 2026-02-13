@@ -113,7 +113,7 @@ img {
 
 <div class="container">
     <h1 id="question">Will You Be My Galentine BB? 💖</h1>
-    <p>Chaos together. Laugh forever. 👯‍♀️✨</p>
+    <p>in every universe I will be forever be grateful that I have you in my life/p>
 
     <!-- Replace these URLs with your uploaded images raw GitHub URLs -->
     <img src="file:///Users/ecka/Downloads/bestie1.jpg">
