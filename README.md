@@ -111,8 +111,8 @@ img {
     <p>In every universe, I will forever be grateful that I have you in my life</p>
 
     <!-- Use your uploaded GitHub raw URLs here -->
-    <img src="https://raw.githubusercontent.com/ecka29/my-bb/main/bestie1.jpg" alt="Best Friends">
-    <img src="https://raw.githubusercontent.com/ecka29/my-bb/main/bestie2.jpg" alt="Best Friends">
+    <img src="https://raw.githubusercontent.com/ecka29/my-bb/ca4d37f50ae7b247e98b78b8aa87c30a16db9c2e/bestie1.jpg">
+    <img src="https://raw.githubusercontent.com/ecka29/my-bb/ca4d37f50ae7b247e98b78b8aa87c30a16db9c2e/bestie2.jpg">
 
     <br>
 
