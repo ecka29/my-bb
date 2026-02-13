@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 <head>
 <meta charset="UTF-8">
@@ -17,23 +18,21 @@ body {
     color:#ff4d6d;
 }
 
-/* Container Styling */
 .container {
     position:relative;
     z-index:2;
 }
 
-/* Heading & Text */
 h1 {
     font-size:2.8rem;
     margin-bottom:0.5rem;
 }
+
 p {
     font-size:1.2rem;
     margin-bottom:20px;
 }
 
-/* Buttons Styling */
 button {
     padding:15px 35px;
     font-size:1.2rem;
@@ -57,7 +56,6 @@ button {
     position:absolute;
 }
 
-/* Images */
 img {
     width:180px;
     border-radius:20px;
@@ -65,19 +63,16 @@ img {
     box-shadow:0 10px 20px rgba(0,0,0,0.2);
 }
 
-/* Celebration Text */
 .celebrate {
     font-size:3rem;
     animation: pop 0.5s ease-in-out forwards;
 }
 
-/* Pop Animation */
 @keyframes pop {
     0% { transform:scale(0); }
     100% { transform:scale(1); }
 }
 
-/* Floating Hearts Animation */
 .heart {
     position: absolute;
     width: 20px;
@@ -113,11 +108,11 @@ img {
 
 <div class="container">
     <h1 id="question">Will You Be My Galentine BB? 💖</h1>
-    <p>in every universe I will be forever be grateful that I have you in my life/p>
+    <p>In every universe, I will forever be grateful that I have you in my life</p>
 
-    <!-- Replace these URLs with your uploaded images raw GitHub URLs -->
-    <img src="file:///Users/ecka/Downloads/bestie1.jpg">
-    <img src="/Users/ecka/Downloads/bestie2.jpg">
+    <!-- Use your uploaded GitHub raw URLs here -->
+    <img src="https://raw.githubusercontent.com/ecka29/my-bb/main/bestie1.jpg" alt="Best Friends">
+    <img src="https://raw.githubusercontent.com/ecka29/my-bb/main/bestie2.jpg" alt="Best Friends">
 
     <br>
 
@@ -125,7 +120,6 @@ img {
     <button id="noBtn">NO!!!</button>
 </div>
 
-<!-- Floating Hearts & Button Logic -->
 <script>
 function createHeart() {
     const heart = document.createElement('div');
@@ -141,7 +135,6 @@ const noBtn = document.getElementById("noBtn");
 const yesBtn = document.getElementById("yesBtn");
 const question = document.getElementById("question");
 
-// Make the "NO!!!" button run away
 noBtn.addEventListener("mouseover", () => {
     const x = Math.random() * (window.innerWidth - 120);
     const y = Math.random() * (window.innerHeight - 80);
@@ -149,19 +142,6 @@ noBtn.addEventListener("mouseover", () => {
     noBtn.style.top = y + "px";
 });
 
-// When "OFC MY BB" is clicked
 yesBtn.addEventListener("click", () => {
     question.innerHTML = "I wuv you BB 💖✨";
-    document.body.style.background = "linear-gradient(135deg, #ffb6c1, #ff69b4)";
-    noBtn.style.display = "none";
-    yesBtn.style.display = "none";
-
-    const celebration = document.createElement("div");
-    celebration.className = "celebrate";
-    celebration.innerHTML = "💖✨";
-    document.body.appendChild(celebration);
-});
-</script>
-
-</body>
-</html>
+    document.body.s
