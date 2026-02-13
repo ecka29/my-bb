@@ -117,8 +117,8 @@ img {
     <p>Chaos together. Laugh forever. 👯‍♀️✨</p>
 
     <!-- Cute Bestie Images -->
-    <img src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e" alt="Best Friends>
-    <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9" alt="Girls Laughing">
+    <img src="/Users/ecka/Downloads/FullSizeRender%20(1).JPG>
+    <img src="hfile:///Users/ecka/Downloads/IMG_6564%20(1).jpg>
 
     <br>
 
@@ -152,14 +152,14 @@ noBtn.addEventListener("mouseover", () => {
 
 // When "OFC MY BB" is clicked
 yesBtn.addEventListener("click", () => {
-    question.innerHTML = "I wuv you BB 💖👯‍♀️✨";
+    question.innerHTML = "I wuv you BB 💖✨";
     document.body.style.background = "linear-gradient(135deg, #ffb6c1, #ff69b4)";
     noBtn.style.display = "none";
     yesBtn.style.display = "none";
 
     const celebration = document.createElement("div");
     celebration.className = "celebrate";
-    celebration.innerHTML = "💖👯‍♀️✨💅";
+    celebration.innerHTML = "💖✨";
     document.body.appendChild(celebration);
 });
 </script>
