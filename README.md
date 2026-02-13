@@ -117,8 +117,8 @@ img {
     <p>Chaos together. Laugh forever. 👯‍♀️✨</p>
 
     <!-- Replace these URLs with your uploaded images raw GitHub URLs -->
-    <img src="https://raw.githubusercontent.com/ecka29/my-bb/main/bestie1.jpg" alt="bestie1.jpg">
-    <img src="https://raw.githubusercontent.com/ecka29/my-bb/main/bestie2.jpg" alt="bestie2.jpg">
+    <img src="file:///Users/ecka/Downloads/bestie1.jpg">
+    <img src="/Users/ecka/Downloads/bestie2.jpg">
 
     <br>
 
