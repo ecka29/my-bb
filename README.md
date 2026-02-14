@@ -108,7 +108,7 @@ img {
 <body>
 
 <div class="container">
-    <h1 id="question">Will You Be My Galentine BB? 💖</h1>
+    <h1 id="question">Will you be my Galentine BB? 💖</h1>
     <p>I hope you're my bestfriend in every universe</p>
 
     <!-- GitHub Raw Image URLs -->
