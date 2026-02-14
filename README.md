@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 <head>
 <meta charset="UTF-8">
@@ -44,6 +45,7 @@ button {
     font-weight:bold;
 }
 
+/* Buttons Specific */
 #yesBtn {
     background:white;
     color:#ff4d6d;
@@ -52,9 +54,10 @@ button {
 #noBtn {
     background:#ff4d6d;
     color:white;
-    position:absolute;
+    position:relative; /* changed from absolute for proper flow */
 }
 
+/* Images */
 img {
     width:180px;
     border-radius:20px;
@@ -109,14 +112,16 @@ img {
     <h1 id="question">Will You Be My Galentine BB? 💖</h1>
     <p>I hope you're my bestfriend in every universe</p>
 
-    <!-- Use your uploaded GitHub raw URLs here -->
+    <!-- GitHub Raw Image URLs -->
     <img src="https://raw.githubusercontent.com/ecka29/my-bb/ca4d37f50ae7b247e98b78b8aa87c30a16db9c2e/bestie1.jpg">
     <img src="https://raw.githubusercontent.com/ecka29/my-bb/ca4d37f50ae7b247e98b78b8aa87c30a16db9c2e/bestie2.jpg">
 
     <br>
 
-    <button id="yesBtn">OFC MY BB</button>
-    <button id="noBtn">NO!!!</button>
+    <div style="margin-top:20px;">
+        <button id="yesBtn">OFC MY BB</button>
+        <button id="noBtn">NO!!!</button>
+    </div>
 </div>
 
 <script>
@@ -134,13 +139,28 @@ const noBtn = document.getElementById("noBtn");
 const yesBtn = document.getElementById("yesBtn");
 const question = document.getElementById("question");
 
+// Make the "NO!!!" button run away
 noBtn.addEventListener("mouseover", () => {
     const x = Math.random() * (window.innerWidth - 120);
     const y = Math.random() * (window.innerHeight - 80);
+    noBtn.style.position = "absolute"; // set absolute dynamically
     noBtn.style.left = x + "px";
     noBtn.style.top = y + "px";
 });
 
+// When "OFC MY BB" is clicked
 yesBtn.addEventListener("click", () => {
     question.innerHTML = "I wuv you BB 💖✨";
-    document.body.s
+    document.body.style.background = "linear-gradient(135deg, #ffb6c1, #ff69b4)";
+    noBtn.style.display = "none";
+    yesBtn.style.display = "none";
+
+    const celebration = document.createElement("div");
+    celebration.className = "celebrate";
+    celebration.innerHTML = "💖✨";
+    document.body.appendChild(celebration);
+});
+</script>
+
+</body>
+</html>
